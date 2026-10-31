@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentfabric-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentfabric.dev/
+AgentFabric.dev provides a Human Review & Approval API for AI agents, enabling agents to send generated content such as URLs, images, and documents to human reviewers for approval, feedback, and audit trails. It supports both Model Context Protocol (MCP) and traditional REST interfaces, offering self‑sign‑up via create_tenant, no credit‑card required, and a dashboard for managing reviews. This service is designed to integrate seamlessly with AI workflows, ensuring compliance and oversight.
+
+**Areas:** Company · AI · HumanReview · MCP · REST · Automation
+
+## agentfabric-dev on APIs.io
+
+Everything profiled for agentfabric-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentfabric-dev/](https://apis.io/providers/agentfabric-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AgentFabric REST API](https://apis.io/apis/agentfabric-dev/agentfabric-rest-api/) — Human Review & Approval REST API as documented
+- [agentfabric-dev API](https://apis.io/apis/agentfabric-dev/agentfabric-dev-api/) — agentfabric-dev API as documented publicly: 31 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1ReviewRequestidResponse](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-get-v1-review-requestid-response/)
+- [PostV1ReviewRequestidDecisionRequest](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requestid-decision-request/)
+- [PostV1ReviewRequestidDecisionResponse](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requestid-decision-response/)
+- [PostV1ReviewRequestidNotifyResponse](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requestid-notify-response/)
+- [PostV1ReviewRequestsRequest](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requests-request/)
+- [PostYourEndpointRequest](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-your-endpoint-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentfabric Dev Context](https://apis.io/jsonld/agentfabric-dev/agentfabric-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [agentfabric-dev API Rules](https://apis.io/rules/agentfabric-dev/agentfabric-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentfabric Dev Authentication](https://apis.io/security/agentfabric-dev/agentfabric-dev-authentication/)
+- [Agentfabric Dev Domain Security](https://apis.io/security/agentfabric-dev/agentfabric-dev-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentfabric.dev/)
+- [Documentation](https://agentfabric.dev/docs/)
+- [Getting started](https://agentfabric.dev/signup/)
+- [Sign up](https://agentfabric.dev/signup/)
+
+## API Evangelist rating
+
+**Kin Score 40.8** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 13.2 |
+
+**Agent readiness 22.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentfabric-dev/](https://apis.io/providers/agentfabric-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agentfabric-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentfabric-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
