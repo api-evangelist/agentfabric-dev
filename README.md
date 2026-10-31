@@ -64,52 +64,19 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AgentFabric.dev provides a Human Review & Approval API for AI agents, enabling agents to send generated content such as URLs, images, and documents to human reviewers for approval, feedback, and audit trails. It supports both Model Context Protocol (MCP) and traditional REST interfaces, offering self‑sign‑up via create_tenant, no credit‑card required, and a dashboard for managing reviews. This service is designed to integrate seamlessly with AI workflows, ensuring compliance and oversight.
+agentfabric.dev provides a human-in-the-loop review and approval layer for AI agents. It offers both a Model Context Protocol (MCP) server and a REST API that let agents submit generated content—URLs, images, PDFs or documents—to human reviewers, who can approve, reject, or comment. The platform records a full audit trail, supports customizable approval policies (all‑approve, any‑approve, quorum, etc.), and requires no human account for agents to self‑signup. It is designed for seamless integration into AI workflows.
 
-**Areas:** Company · AI · HumanReview · MCP · REST · Automation
+**Areas:** AI · Human-in-the-loop · Review · Approval · MCP
 
 ## agentfabric-dev on APIs.io
 
 Everything profiled for agentfabric-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentfabric-dev/](https://apis.io/providers/agentfabric-dev/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
+### APIs (1)
 
-- [AgentFabric REST API](https://apis.io/apis/agentfabric-dev/agentfabric-rest-api/) — Human Review & Approval REST API as documented
-- [agentfabric-dev API](https://apis.io/apis/agentfabric-dev/agentfabric-dev-api/) — agentfabric-dev API as documented publicly: 31 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+- AgentFabric REST API — REST API for agentfabric.dev providing endpoints for reviewing and approving AI agent content.
 
-### Published properties
-
-Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [GetV1ReviewRequestidResponse](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-get-v1-review-requestid-response/)
-- [PostV1ReviewRequestidDecisionRequest](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requestid-decision-request/)
-- [PostV1ReviewRequestidDecisionResponse](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requestid-decision-response/)
-- [PostV1ReviewRequestidNotifyResponse](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requestid-notify-response/)
-- [PostV1ReviewRequestsRequest](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-v1-review-requests-request/)
-- [PostYourEndpointRequest](https://apis.io/schemas/agentfabric-dev/agentfabric-dev-post-your-endpoint-request/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Agentfabric Dev Context](https://apis.io/jsonld/agentfabric-dev/agentfabric-dev-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [agentfabric-dev API Rules](https://apis.io/rules/agentfabric-dev/agentfabric-dev-rules/)
-
-#### Security (2)
-
-Authentication, trust centre, and vulnerability disclosure.
-
-- [Agentfabric Dev Authentication](https://apis.io/security/agentfabric-dev/agentfabric-dev-authentication/)
-- [Agentfabric Dev Domain Security](https://apis.io/security/agentfabric-dev/agentfabric-dev-domain-security/)
+_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
 
 ## Where to find this API
 
@@ -117,51 +84,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://agentfabric.dev/)
 - [Documentation](https://agentfabric.dev/docs/)
-- [Getting started](https://agentfabric.dev/signup/)
-- [Sign up](https://agentfabric.dev/signup/)
+- [Getting started](https://agentfabric.dev/docs/)
+- [API reference](https://agentfabric.dev/docs/)
 
 ## API Evangelist rating
 
-**Kin Score 40.8** — developing · rubric 0.25.0 · scored 2026-10-31
-
-| Facet | Score |
-|---|---|
-| Discoverability | 62.5 |
-| Contract quality | 55.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 42.9 |
-| Access clarity | 13.2 |
-
-**Agent readiness 22.3** — agent-aware
-
-| Agent-readiness dimension | Result |
-|---|---|
-| Spec Presence | yes |
-| Agentic Access | — |
-| Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
-| Auth Clarity | bearer (partial credit) |
-| Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
-| Event Surface Described | — |
-| Agent Skills | — |
-| Well Known Catalog | yes |
-| Consent Identity | — |
-| Agent Card | — |
-| Dry Run Mode | — |
-| Delegated Identity | — |
-| Protected Resource Metadata | — |
-| Dynamic Client Registration | — |
-| Agentic Commerce | — |
-| Pagination Ratio | — |
-| Operation Distinctiveness | distinct |
-
-**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
-
-The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentfabric-dev/](https://apis.io/providers/agentfabric-dev/).
+Not yet rated. See [apis.io/providers/agentfabric-dev/](https://apis.io/providers/agentfabric-dev/).
 
 ## How this profile is made
 
